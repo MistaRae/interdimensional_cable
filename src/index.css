@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://static0.srcdn.com/wordpress/wp-content/uploads/2020/10/rick-and-morty-watching-rick-and-morty.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
