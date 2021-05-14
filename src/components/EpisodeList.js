@@ -2,8 +2,11 @@ import React from 'react';
 import Episode from './Episode'
 
 const EpisodeList = ({allEpisodes}) => {
-    
-  const episodeNodes = allEpisodes.map((episode, index) => {
+
+    const allEpisodesArray = [];
+    allEpisodesArray.push(allEpisodes)
+
+    const episodeNodes = allEpisodesArray.map((episode, index) => {
         return <Episode 
         episode = {episode}
         key = {index}/>

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Episode = () => {
+const Episode = ({episode}) => {
 
     return (
-        <p>this is where the gif is rendered</p>
+        <p>{episode.results[0].name}</p>
     )
 }
 
