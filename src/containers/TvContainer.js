@@ -2,6 +2,7 @@ import React, { useEffect, useState} from 'react'
 // import EpisodeList from '../components/EpisodeList.js'
 import NextButton from '../components/NextButton'
 import TVScreen from '../components/TVScreen'
+import Header from '../components/Header'
 import './TvContainer.css'
 
 const TvContainer = function () {
@@ -52,7 +53,7 @@ const TvContainer = function () {
 
     return (
         <div>
-       <img src='https://help.redbubble.com/hc/article_attachments/360002309526/Rick_and_Morty_-_logo__English_.png' alt="Rick and morty logo" />
+        <Header/>
         <TVScreen isLoading={isLoading} gif={episodeGif} />
         <NextButton onNextClick={handleClick} />
         {/* <EpisodeList allEpisodes = {allEpisodes}/> */}

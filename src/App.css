@@ -4,15 +4,27 @@ img {
   margin-right: auto;
   max-width: 240px;
   max-height: 130px;
+  object-fit: contain;
+  /* border: 1px solid red; */
+
 }
 
 #image-container {
   display: block;
   background-color: black;
-  margin-left: auto;
+  margin-left: 209px;
   margin-right: auto;
-  width: 240px;
-  height: 130px;
-  padding: 0px;
+  width: 243px;
+  height: 132px;
+  padding-left: 0px;
   border: 1px solid black;
+  /* object-fit: contain; */
+}
+
+#header-container {
+  display: block;
+  margin-left: 209px;
+  margin-right: auto;
+  padding-left: 0px;
+  /* border: 1px solid red; */
 }

@@ -1,7 +1,7 @@
 body {
-  max-width: 653px;
-  max-height: 683px;
+  height: auto;
   margin: 0;
+  padding-bottom: 110px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -9,7 +9,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('https://static0.srcdn.com/wordpress/wp-content/uploads/2020/10/rick-and-morty-watching-rick-and-morty.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5');
   background-repeat: no-repeat;
-  background-size: cover
+  background-size:cover;
+  border: 1px solid red;
+
+}
+body > div {
+  max-width: fit-content;
 }
 
 /* url('https://static.wikia.nocookie.net/fictionalcrossover/images/c/c8/Rick_and_Morty_logo.png/revision/latest/scale-to-width-down/400?cb=20150515125959') */
