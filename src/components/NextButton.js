@@ -3,7 +3,7 @@ import React from 'react'
 const NextButton = ({onNextClick}) => {
 
     return (
-        <button onClick={onNextClick}>NEXT</button>
+        <button id = "button" onClick={onNextClick}>NEXT</button>
     )
 }
 
