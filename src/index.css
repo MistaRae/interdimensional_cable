@@ -9,8 +9,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('https://static0.srcdn.com/wordpress/wp-content/uploads/2020/10/rick-and-morty-watching-rick-and-morty.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5');
   background-repeat: no-repeat;
-  background-size:cover;
-  border: 1px solid red;
+  background-size:contain;
+  /* border: 1px solid red; */
 
 }
 body > div {

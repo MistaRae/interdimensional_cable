@@ -52,11 +52,13 @@ const TvContainer = function () {
     }
 
     return (
-        <div>
-        <Header/>
-        <TVScreen isLoading={isLoading} gif={episodeGif} />
-        <NextButton onNextClick={handleClick} />
-        {/* <EpisodeList allEpisodes = {allEpisodes}/> */}
+        <div id = "all-content">
+            <div id = "content">
+                <Header/>
+                <TVScreen isLoading={isLoading} gif={episodeGif} />
+                <NextButton onNextClick={handleClick} />
+                {/* <EpisodeList allEpisodes = {allEpisodes}/> */}
+            </div>
         </div>
        
     )
